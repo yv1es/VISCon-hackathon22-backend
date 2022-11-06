@@ -1,16 +1,7 @@
-# "Application Name here" - Backend
+# VISCon Hackathon Backend
 
-This project composes the backend of the whole application.
-It handles requests by users/admins to deliver and change data about the events.
+During the 2022 VISCon Hackathon we developped a event planer application. The backend provides an API with all the event information and an admin backend to manage the events. 
 
-## techstack
-
-The data is being hosted on a postgress server which is managed by a django instance.
-Gunicorn hosts the django instance and is itself connected to the port 80 via Nginx.
-
-## Setup
-
-https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-20-04
 
 ## Usage
 
